@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T12:08:11+00:00",
+  "generated_at": "2026-09-23T12:08:56+00:00",
   "rule": "push = fewer than 6 seats sold and seats left; nearest date first; sold out excluded",
   "courses": [
     {
