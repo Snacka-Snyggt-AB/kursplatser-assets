@@ -1,16 +1,10 @@
 {
-  "generated_at": "2026-09-23T12:09:39+00:00",
+  "generated_at": "2026-10-08T12:53:58+00:00",
   "rule": "push = fewer than 6 seats sold and seats left; nearest date first; sold out excluded",
   "courses": [
     {
       "name": "Härskartekniker",
       "start_date": "2026-10-21T09:00:00+02:00",
-      "city": "Stockholm",
-      "push": true
-    },
-    {
-      "name": "Presentationsteknik",
-      "start_date": "2026-11-10T09:00:00+01:00",
       "city": "Stockholm",
       "push": true
     },
@@ -117,18 +111,6 @@
       "push": true
     },
     {
-      "name": "Presentationsteknik",
-      "start_date": "2026-09-23T09:00:00+02:00",
-      "city": "Stockholm",
-      "push": false
-    },
-    {
-      "name": "Snacka Snyggt",
-      "start_date": "2026-10-06T09:00:00+02:00",
-      "city": "Stockholm",
-      "push": false
-    },
-    {
       "name": "Framgångsrika samtal",
       "start_date": "2026-10-13T09:00:00+02:00",
       "city": "Stockholm",
@@ -147,14 +129,14 @@
       "push": false
     },
     {
-      "name": "Förhandlingsteknik",
-      "start_date": "2026-12-01T09:00:00+01:00",
+      "name": "Presentationsteknik",
+      "start_date": "2026-11-10T09:00:00+01:00",
       "city": "Stockholm",
       "push": false
     },
     {
-      "name": "Snacka Snyggt",
-      "start_date": "2026-12-08T09:00:00+01:00",
+      "name": "Förhandlingsteknik",
+      "start_date": "2026-12-01T09:00:00+01:00",
       "city": "Stockholm",
       "push": false
     }
