@@ -1,10 +1,16 @@
 {
-  "generated_at": "2026-10-15T10:17:38+00:00",
-  "rule": "push = fewer than 6 seats sold and seats left; nearest date first; sold out excluded",
+  "generated_at": "2026-10-15T10:38:19+00:00",
+  "rule": "push = fewer than 8 seats sold, seats left, start within 3 months; then other courses within 3 months; then later courses; nearest date first; sold out excluded",
   "courses": [
     {
       "name": "Härskartekniker",
       "start_date": "2026-10-21T09:00:00+02:00",
+      "city": "Stockholm",
+      "push": true
+    },
+    {
+      "name": "Presentationsteknik",
+      "start_date": "2026-11-10T09:00:00+01:00",
       "city": "Stockholm",
       "push": true
     },
@@ -15,92 +21,8 @@
       "push": true
     },
     {
-      "name": "Snacka Snyggt",
-      "start_date": "2027-01-26T09:00:00+01:00",
-      "city": "Stockholm",
-      "push": true
-    },
-    {
-      "name": "Tala tryggt - hantera din nervositet",
-      "start_date": "2027-02-09T09:00:00+01:00",
-      "city": "Stockholm",
-      "push": true
-    },
-    {
-      "name": "Presentationsteknik",
-      "start_date": "2027-02-16T09:00:00+01:00",
-      "city": "Stockholm",
-      "push": true
-    },
-    {
-      "name": "Snacka Snyggt",
-      "start_date": "2027-03-09T09:00:00+01:00",
-      "city": "Stockholm",
-      "push": true
-    },
-    {
-      "name": "Ledarskapsprogrammet",
-      "start_date": "2027-03-16T09:00:00+01:00",
-      "city": "Stockholm",
-      "push": true
-    },
-    {
-      "name": "Framgångsrika samtal",
-      "start_date": "2027-04-06T09:00:00+02:00",
-      "city": "Stockholm",
-      "push": true
-    },
-    {
-      "name": "Presentationsteknik",
-      "start_date": "2027-04-13T09:00:00+02:00",
-      "city": "Stockholm",
-      "push": true
-    },
-    {
-      "name": "Härskartekniker",
-      "start_date": "2027-04-14T09:00:00+02:00",
-      "city": "Stockholm",
-      "push": true
-    },
-    {
-      "name": "Snacka Snyggt",
-      "start_date": "2027-04-20T09:00:00+02:00",
-      "city": "Stockholm",
-      "push": true
-    },
-    {
-      "name": "Tala tryggt - hantera din nervositet",
-      "start_date": "2027-05-11T09:00:00+02:00",
-      "city": "Stockholm",
-      "push": true
-    },
-    {
-      "name": "Snacka Snyggt",
-      "start_date": "2027-05-18T09:00:00+02:00",
-      "city": "Göteborg",
-      "push": true
-    },
-    {
       "name": "Retorik & Affärsmannaskap",
-      "start_date": "2027-05-18T09:00:00+02:00",
-      "city": "Stockholm",
-      "push": true
-    },
-    {
-      "name": "Förhandlingsteknik",
-      "start_date": "2027-06-01T09:00:00+02:00",
-      "city": "Stockholm",
-      "push": true
-    },
-    {
-      "name": "Snacka Snyggt",
-      "start_date": "2027-06-08T09:00:00+02:00",
-      "city": "Stockholm",
-      "push": true
-    },
-    {
-      "name": "Presentationsteknik",
-      "start_date": "2027-06-15T09:00:00+02:00",
+      "start_date": "2026-11-17T09:00:00+01:00",
       "city": "Stockholm",
       "push": true
     },
@@ -117,18 +39,6 @@
       "push": false
     },
     {
-      "name": "Presentationsteknik",
-      "start_date": "2026-11-10T09:00:00+01:00",
-      "city": "Stockholm",
-      "push": false
-    },
-    {
-      "name": "Retorik & Affärsmannaskap",
-      "start_date": "2026-11-17T09:00:00+01:00",
-      "city": "Stockholm",
-      "push": false
-    },
-    {
       "name": "Förhandlingsteknik",
       "start_date": "2026-12-01T09:00:00+01:00",
       "city": "Stockholm",
@@ -137,6 +47,96 @@
     {
       "name": "Snacka Snyggt",
       "start_date": "2026-12-08T09:00:00+01:00",
+      "city": "Stockholm",
+      "push": false
+    },
+    {
+      "name": "Snacka Snyggt",
+      "start_date": "2027-01-26T09:00:00+01:00",
+      "city": "Stockholm",
+      "push": false
+    },
+    {
+      "name": "Tala tryggt - hantera din nervositet",
+      "start_date": "2027-02-09T09:00:00+01:00",
+      "city": "Stockholm",
+      "push": false
+    },
+    {
+      "name": "Presentationsteknik",
+      "start_date": "2027-02-16T09:00:00+01:00",
+      "city": "Stockholm",
+      "push": false
+    },
+    {
+      "name": "Snacka Snyggt",
+      "start_date": "2027-03-09T09:00:00+01:00",
+      "city": "Stockholm",
+      "push": false
+    },
+    {
+      "name": "Ledarskapsprogrammet",
+      "start_date": "2027-03-16T09:00:00+01:00",
+      "city": "Stockholm",
+      "push": false
+    },
+    {
+      "name": "Framgångsrika samtal",
+      "start_date": "2027-04-06T09:00:00+02:00",
+      "city": "Stockholm",
+      "push": false
+    },
+    {
+      "name": "Presentationsteknik",
+      "start_date": "2027-04-13T09:00:00+02:00",
+      "city": "Stockholm",
+      "push": false
+    },
+    {
+      "name": "Härskartekniker",
+      "start_date": "2027-04-14T09:00:00+02:00",
+      "city": "Stockholm",
+      "push": false
+    },
+    {
+      "name": "Snacka Snyggt",
+      "start_date": "2027-04-20T09:00:00+02:00",
+      "city": "Stockholm",
+      "push": false
+    },
+    {
+      "name": "Tala tryggt - hantera din nervositet",
+      "start_date": "2027-05-11T09:00:00+02:00",
+      "city": "Stockholm",
+      "push": false
+    },
+    {
+      "name": "Snacka Snyggt",
+      "start_date": "2027-05-18T09:00:00+02:00",
+      "city": "Göteborg",
+      "push": false
+    },
+    {
+      "name": "Retorik & Affärsmannaskap",
+      "start_date": "2027-05-18T09:00:00+02:00",
+      "city": "Stockholm",
+      "push": false
+    },
+    {
+      "name": "Förhandlingsteknik",
+      "start_date": "2027-06-01T09:00:00+02:00",
+      "city": "Stockholm",
+      "push": false
+    },
+    {
+      "name": "Snacka Snyggt",
+      "start_date": "2027-06-08T09:00:00+02:00",
+      "city": "Stockholm",
+      "push": false
+    },
+    {
+      "name": "Presentationsteknik",
+      "start_date": "2027-06-15T09:00:00+02:00",
       "city": "Stockholm",
       "push": false
     }
