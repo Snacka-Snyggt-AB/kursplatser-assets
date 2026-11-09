@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T13:03:16+00:00",
+  "generated_at": "2026-11-09T11:23:53+00:00",
   "rule": "push = fewer than 8 seats sold, seats left, start within 3 months; then other courses within 3 months; then later courses; nearest date first; sold out excluded",
   "courses": [
     {
@@ -22,9 +22,9 @@
     },
     {
       "name": "Tala tryggt - hantera din nervositet",
-      "start_date": "2026-11-03T09:00:00+01:00",
+      "start_date": "2027-02-09T09:00:00+01:00",
       "city": "Stockholm",
-      "push": false
+      "push": true
     },
     {
       "name": "Retorik & Affärsmannaskap",
@@ -41,12 +41,6 @@
     {
       "name": "Snacka Snyggt",
       "start_date": "2026-12-08T09:00:00+01:00",
-      "city": "Stockholm",
-      "push": false
-    },
-    {
-      "name": "Tala tryggt - hantera din nervositet",
-      "start_date": "2027-02-09T09:00:00+01:00",
       "city": "Stockholm",
       "push": false
     },
