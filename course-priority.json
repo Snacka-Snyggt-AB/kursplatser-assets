@@ -1,23 +1,11 @@
 {
-  "generated_at": "2026-11-09T11:23:53+00:00",
+  "generated_at": "2026-11-13T11:32:57+00:00",
   "rule": "push = fewer than 8 seats sold, seats left, start within 3 months; then other courses within 3 months; then later courses; nearest date first; sold out excluded",
   "courses": [
-    {
-      "name": "Presentationsteknik",
-      "start_date": "2026-11-10T09:00:00+01:00",
-      "city": "Stockholm",
-      "push": true
-    },
     {
       "name": "Snacka Snyggt",
       "start_date": "2026-11-17T09:00:00+01:00",
       "city": "Göteborg",
-      "push": true
-    },
-    {
-      "name": "Snacka Snyggt",
-      "start_date": "2027-01-26T09:00:00+01:00",
-      "city": "Stockholm",
       "push": true
     },
     {
@@ -41,6 +29,12 @@
     {
       "name": "Snacka Snyggt",
       "start_date": "2026-12-08T09:00:00+01:00",
+      "city": "Stockholm",
+      "push": false
+    },
+    {
+      "name": "Snacka Snyggt",
+      "start_date": "2027-01-26T09:00:00+01:00",
       "city": "Stockholm",
       "push": false
     },
