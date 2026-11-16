@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T11:32:57+00:00",
+  "generated_at": "2026-11-16T14:06:04+00:00",
   "rule": "push = fewer than 8 seats sold, seats left, start within 3 months; then other courses within 3 months; then later courses; nearest date first; sold out excluded",
   "courses": [
     {
@@ -11,6 +11,12 @@
     {
       "name": "Tala tryggt - hantera din nervositet",
       "start_date": "2027-02-09T09:00:00+01:00",
+      "city": "Stockholm",
+      "push": true
+    },
+    {
+      "name": "Presentationsteknik",
+      "start_date": "2027-02-16T09:00:00+01:00",
       "city": "Stockholm",
       "push": true
     },
@@ -35,12 +41,6 @@
     {
       "name": "Snacka Snyggt",
       "start_date": "2027-01-26T09:00:00+01:00",
-      "city": "Stockholm",
-      "push": false
-    },
-    {
-      "name": "Presentationsteknik",
-      "start_date": "2027-02-16T09:00:00+01:00",
       "city": "Stockholm",
       "push": false
     },
